@@ -352,19 +352,39 @@ Effective BA work involves understanding the problem, challenging assumptions, i
 
 ---
 
-## 📚 Portfolio Artefacts
+## Portfolio Artefacts
 
-Additional project artefacts will be progressively added to this repository:
+The following artefacts demonstrate the analysis and delivery approach used throughout the case study.
 
-* [Business Requirements](./docs/business-requirements.md)
-* [User Requirements](./docs/user-requirements.md)
-* [User Stories](./docs/user-stories.md)
-* [Acceptance Criteria](./docs/acceptance-criteria.md)
-* [Process Flows](./diagrams/)
-* [Requirements Traceability Matrix](./artifacts/requirements-traceability-matrix.md)
-* [UAT Summary](./artifacts/uat-summary.md)
-
+| Artefact | Description |
+|---|---|
+| [Business Requirements](./docs/business-requirements.md) | Business objectives, requirements, scope and business rules |
+| [User Stories](./docs/user-stories.md) | User stories and acceptance criteria across platform personas |
+| [Stakeholder & Persona Analysis](./docs/stakeholder-and-persona-analysis.md) | Stakeholder responsibilities, goals, pain points and requirements |
+| [Process Flow](./diagrams/process-flow.md) | High-level representation of the proposed user and operational flow |
+| [Search Matrix](./artifacts/search-matrix.md) | Search combinations, rules and functional requirements |
+| [Requirements Traceability Matrix](./artifacts/requirements-traceability-matrix.md) | Traceability from business requirements through UAT |
+| [UAT Test Scenarios](./artifacts/uat-test-scenarios.md) | UAT scenarios, acceptance criteria and defect-management approach |
 ---
+## Case Study Navigation
+
+**Start here:**  
+[Project Overview](./README.md)
+
+**Understand the requirements:**  
+[Business Requirements](./docs/business-requirements.md) → [User Stories](./docs/user-stories.md)
+
+**Understand the users:**  
+[Stakeholder & Persona Analysis](./docs/stakeholder-and-persona-analysis.md)
+
+**Understand the process:**  
+[Process Flow](./diagrams/process-flow.md)
+
+**Explore the detailed analysis:**  
+[Search Matrix](./artifacts/search-matrix.md) → [Requirements Traceability Matrix](./artifacts/requirements-traceability-matrix.md)
+
+**Validate the solution:**  
+[UAT Test Scenarios](./artifacts/uat-test-scenarios.md)
 
 ## 🔐 Confidentiality & Disclaimer
 
