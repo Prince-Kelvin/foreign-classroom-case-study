@@ -155,6 +155,69 @@ The search design needed to remain flexible rather than forcing users to provide
 
 ---
 
+## Challenges & Trade-offs
+
+The analysis involved several areas where the requirements needed to balance user experience, operational needs and system behaviour.
+
+### Search Flexibility vs. Search Simplicity
+
+A highly flexible search experience gives users more ways to discover programmes, but too many filters can make the interface difficult to use.
+
+The approach was therefore to support multiple search combinations while keeping each individual criterion straightforward.
+
+### User Experience vs. Data Quality
+
+Allowing users to enter unrestricted search values can create inconsistent results.
+
+Where appropriate, controlled values and database-driven selections were preferred to improve consistency and reduce invalid combinations.
+
+### Customer Experience vs. Operational Control
+
+Students need a simple journey, while internal teams require more detailed information and controls.
+
+The analysis therefore separated the customer-facing experience from the operational workflows supporting application processing, finance and administration.
+
+### Automation vs. Exception Handling
+
+The normal process can be automated, but exceptions still require human intervention.
+
+For example, where an appropriate Processing Staff member is unavailable, an Administrator needs the ability to intervene and reassign the relevant workload.
+
+### Documentation vs. Delivery Speed
+
+Not every requirement needs the same level of documentation.
+
+The analysis focused detailed documentation on requirements that affected user experience, business rules, operational workflows, data dependencies and UAT.
+
+---
+
+## Outcome & Measurement
+
+Because this is a reconstructed portfolio case study, actual production performance metrics are not disclosed.
+
+However, the analysis identified measurable indicators that could be used to evaluate the solution after implementation.
+
+| Objective | Potential KPI |
+|---|---|
+| Improve programme discovery | Search-to-programme-detail conversion rate |
+| Improve application conversion | Programme-detail-to-application conversion rate |
+| Reduce search friction | Search abandonment rate |
+| Improve operational efficiency | Average application processing time |
+| Improve application visibility | Percentage of applications with current status |
+| Improve data quality | Invalid search/input rate |
+| Improve operational ownership | Percentage of applications assigned to an active processing owner |
+| Improve partner visibility | Partner application-status engagement |
+| Improve financial transparency | Time taken to reconcile commission/withdrawal records |
+
+### Measurement Approach
+
+The recommended approach would be to establish baseline measurements before implementation and compare them with post-release performance.
+
+This creates a clearer connection between:
+
+**Business Requirement → Product Change → User Behaviour → Operational Outcome → Business KPI**
+
+---
 ## 🧩 Search Requirements
 
 The analysis defined a flexible search model capable of supporting scenarios such as:
@@ -371,6 +434,53 @@ Connecting requirements to user stories, acceptance criteria, and test scenarios
 ### 5. A Business Analyst should think beyond documentation
 
 Effective BA work involves understanding the problem, challenging assumptions, identifying opportunities, and helping teams deliver useful outcomes.
+
+---
+
+## What I Would Improve Next
+
+If the product were being taken into a subsequent delivery phase, I would explore:
+
+### 1. Search Analytics
+
+Introduce analytics around:
+
+- Most frequently searched countries
+- Most searched programmes
+- Searches returning zero results
+- Search-to-application conversion
+- Frequently abandoned searches
+
+This could help product and business teams identify gaps in the available catalogue.
+
+### 2. Search Personalisation
+
+Explore whether search behaviour and student preferences could eventually support personalised programme recommendations.
+
+Any recommendation capability would require appropriate data, transparency and validation before being used in production.
+
+### 3. Application Funnel Analytics
+
+Track the journey:
+
+**Search → Programme View → Apply → Application Completion**
+
+This would help identify where users drop out of the journey.
+
+### 4. Operational Dashboarding
+
+Provide Processing Staff and management with operational metrics such as:
+
+- Open applications
+- Pending applications
+- Applications by status
+- Processing turnaround time
+- Workload by staff member
+- Exceptions requiring intervention
+
+### 5. Continuous Requirements Improvement
+
+Use production feedback, analytics, stakeholder feedback and UAT findings to continuously refine requirements rather than treating the initial requirements baseline as static.
 
 ---
 
