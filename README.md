@@ -2,8 +2,72 @@
 
 ### Business Analysis | Product Requirements | Process Improvement | UAT
 
-> **Professional Portfolio Case Study**
-> An anonymized and reconstructed Business Analysis case study demonstrating requirements engineering, process analysis, product thinking, user stories, business rules, and User Acceptance Testing for an EdTech platform.
+> A reconstructed Business Analysis case study demonstrating how I approached the analysis of a student-facing EdTech platform, from business problem discovery through requirements, process design, traceability and user acceptance testing.
+
+---
+
+## Executive Summary
+
+Foreign Classroom is an education technology platform designed to support students seeking international study opportunities.
+
+A key challenge was creating a structured experience that allowed users to discover relevant schools and programmes while also supporting the operational teams responsible for processing applications, managing partners and handling financial activities.
+
+My role focused on translating business and user needs into structured requirements and delivery-ready artefacts.
+
+The analysis covered:
+
+- Business and functional requirements
+- Stakeholder and persona analysis
+- Student search and discovery
+- Business rules
+- User stories and acceptance criteria
+- Process analysis
+- Requirements traceability
+- User acceptance testing
+- Operational and product considerations
+
+The case study demonstrates my approach to connecting **business objectives, user needs, product requirements and delivery validation**.
+
+---
+
+## My BA Contribution
+
+I approached the initiative from both a **business-process** and **product** perspective.
+
+My key areas of contribution included:
+
+| Area | Contribution |
+|---|---|
+| Requirements Analysis | Translated business needs into structured requirements |
+| Stakeholder Analysis | Identified user groups, responsibilities, goals and pain points |
+| Process Analysis | Mapped the intended user and operational journey |
+| Product Thinking | Considered usability, workflow dependencies and user experience |
+| Requirements Engineering | Developed user stories, business rules and acceptance criteria |
+| Traceability | Connected requirements to user stories and UAT scenarios |
+| UAT | Defined scenarios for validating expected system behaviour |
+| Documentation | Produced structured BA artefacts for delivery and stakeholder review |
+
+---
+
+## What I Was Solving
+
+The core problem was not simply "how do we build a student portal?"
+
+The broader question was:
+
+> **How can we create a digital journey that makes it easier for students to discover suitable international education opportunities while giving internal teams and recruitment partners the visibility they need to support the application lifecycle?**
+
+This distinction shaped the analysis.
+
+The solution therefore had to consider both sides of the platform:
+
+**Student experience**
+
+Search → Discover → Review → Apply → Track
+
+**Operational ecosystem**
+
+Application → Processing → Partner visibility → Finance → Administration
 
 ---
 
